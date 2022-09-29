@@ -2,9 +2,6 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Server to fetch data from postgres database and serve it to React client",
-  "engines": {
-    "node": "18.x"
-  }
   "scripts": {
     "build": "bash compile.sh"
   },
