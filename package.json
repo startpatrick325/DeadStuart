@@ -4,7 +4,7 @@
   "description": "script again coffee again",
 
   "scripts": {
-    "start": "bash compile.sh"
+    "build": "bash compile.sh"
   },
   "author": "puji",
   "license": "ISC",
