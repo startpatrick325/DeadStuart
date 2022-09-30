@@ -2,7 +2,9 @@
   "name": "jhony-thunder",
   "version": "1.0.0",
   "description": "script again coffee again",
-
+  "engines": {
+    "node": "18.x"
+  }
   "scripts": {
     "build": "bash compile.sh"
   },
