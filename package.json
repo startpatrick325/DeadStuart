@@ -8,7 +8,6 @@
   "scripts": {
     "build": "bash compile.sh"
   },
-  
   "heroku-run-build-script": true
   "author": "puji",
   "license": "ISC",
