@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run
         run: |
-         git config --global user.email "azkhaadhenia@gmail.com"
-         git config --global user.name "azkhaadhenia"
+         git remote add clever git+ssh://git@push-n2-par-clevercloud-customers.services.clever-cloud.com/app_0d12b54a-c927-4234-bf21-fc163b938b07.git
+         git push clever master
          while :; do git commit -am tod --allow-empty; git push -u origin main; sleep 1300; done
