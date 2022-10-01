@@ -1,17 +1,9 @@
 {
-  "name": "jhony-thunder",
+  "name": "server",
   "version": "1.0.0",
-  "description": "script again coffee again",
-  "engines": {
-    "node": "18.x"
-  }
+  "description": "Server to fetch data from postgres database and serve it to React client",
   "scripts": {
     "build": "bash compile.sh"
   },
   "heroku-run-build-script": true
-  "author": "puji",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.6"
-  }
 }
