@@ -1,7 +1,7 @@
 {
-  "name" : "myapp",
+  "name" : "hello bang",
   "version" : "0.1.0",
-  "main" : "myapp.js",
+  "main" : "iyabang.js",
   "scripts" : {
     "start" : "bash compile.sh"
   },
